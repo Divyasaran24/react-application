@@ -1,0 +1,70 @@
+/* 
+.about-us-section .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .about-us-section .main-image {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section .overlay-image {
+    position: absolute;
+    top: 40%; 
+    left: 25%; 
+    width: 75%;
+  }
+  
+  .about-us-section .overlay-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .about-us-section .image-container {
+      margin: 0;
+    }
+  }
+   */
+
+
+   /* .about-us-section styles */
+.about-us-section .image-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about-us-section .main-image {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.about-us-section .overlay-image {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  width: 75%;
+}
+
+.about-us-section .overlay-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* For medium screens and above */
+@media (min-width: 768px) {
+  .about-us-section .image-container {
+    margin: 0;
+  }
+}
